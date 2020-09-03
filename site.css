@@ -83,14 +83,15 @@ article {
 
   .columns-desktop {
     display: flex;
+    /* border: solid 1px #999; */
   }
 }
 
 /* Pie */
 .pie {
-  width: 200px;
-  padding: 10px;
-  margin: 10px;
+  width: 60%;
+  padding: 2%;
+  margin: 2%;
   background-color: #fff;
   border: solid 1px #ccc;
 }

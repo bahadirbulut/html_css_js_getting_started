@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    }
+
+    html,
+    body {
+    height: 100%;
+    }
+
+    body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #997;
+    }
+
+    p {
+    margin: 0.5em 0 0.5em 0;
+    }
+
+    h1 {
+        margin: 10px;
+    }
+
+    .card {
+        display: inline-block;
+        padding: 1%;
+        margin: 2em 0.1em 0 2em;
+        background-color: #fff;
+        border: solid 1px #ccc;
+        width: 220px;
+        height: 100px;
+    }
+
+    .card ul {
+        display: flex;
+        margin: 1px;
+        padding: 5px;
+    }
+
+    .card li {
+        display: inline-block;
+        padding: 6px;
+        background-color: #ce7777;
+        margin: 5px;
+        border: solid 1px #300808;
+        border-radius: 3px;
+        color: #fff;
+        text-align: center;
+    }
+
+    .card li a:visited,
+    .card li a:link {
+        color: #fff;
+        text-decoration: none;
+    }
